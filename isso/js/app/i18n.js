@@ -29,6 +29,7 @@ var catalogue = {
     sk:      require("app/i18n/sk"),
     sv:      require("app/i18n/sv"),
     tr:      require("app/i18n/tr"),
+    th:      require("app/i18n/th"),
     uk:      require("app/i18n/uk"),
     vi:      require("app/i18n/vi"),
     zh:      require("app/i18n/zh_CN"),
@@ -59,6 +60,7 @@ var pluralforms = function(lang) {
     case "pt":
     case "sv":
     case "tr":
+    case "th":
     case "vi":
     case "zh":
         return function(msgs, n) {
